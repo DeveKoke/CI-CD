@@ -32,6 +32,7 @@ class TestDiv(unittest.TestCase):
     self.assertEqual(division(-1, 3), -1/3)
     self.assertEqual(division(-1, -1), 1)
     self.assertEqual(division(2, 0), None)
+    self.assertEqual(division(0, 4), None)
 
 if __name__ == '__main__':
  unittest.main()

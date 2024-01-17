@@ -1,5 +1,5 @@
 def division(a, b):
-    if b == 0:
+    if a == 0 or b == 0:
         return None 
     return a / b
  
